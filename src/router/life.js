@@ -31,7 +31,7 @@ class life extends Component {
     handleOnChange = (e) => {
         this.setState({name: e.target.value})
     }
-    
+
     render() {
         console.log("render 호출")
         return (

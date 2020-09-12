@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Todo from "./router/todo";
 import Life from "./router/life";
+import Nomatch from "./router/nomatch";
 
 function App() {
     return (
@@ -32,6 +33,9 @@ function App() {
                             </Route>
                             <Route path="/life">
                                 <Life/>
+                            </Route>
+                            <Route path="*">
+                                <Nomatch/>
                             </Route>
                         </Switch>
                     </div>
