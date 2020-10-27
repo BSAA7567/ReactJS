@@ -1,5 +1,5 @@
 # ReactJS
-Learning ReactJS
+create-react-app ReactJS
 # Get Start
     > npm install
     > yarn start
